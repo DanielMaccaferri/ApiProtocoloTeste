@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7680e134-f845-4035-ae22-9b316bc20110" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lIqCgHt7xlH1S7ylKVWiODgcE2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IterasysPageObjects" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Feature: br.com.protocoloapi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/br.com.protocoloapi.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
+      <module name="protocoloapi" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: br.com.protocoloapi" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7680e134-f845-4035-ae22-9b316bc20110" name="Default Changelist" comment="" />
+      <created>1607294827588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607294827588</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1007" y="221" key="FileChooserDialogImpl" timestamp="1607295587325">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1007" y="221" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1607295587325" />
+    <state width="2509" height="268" key="GridCell.Tab.0.bottom" timestamp="1607297252992">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2509" height="268" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1607297252992" />
+    <state width="2509" height="268" key="GridCell.Tab.0.center" timestamp="1607297252992">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2509" height="268" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1607297252992" />
+    <state width="2509" height="268" key="GridCell.Tab.0.left" timestamp="1607297252992">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2509" height="268" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1607297252992" />
+    <state width="2509" height="268" key="GridCell.Tab.0.right" timestamp="1607297252992">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2509" height="268" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1607297252992" />
+    <state x="757" y="197" key="IDE.errors.dialog" timestamp="1607294955684">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="757" y="197" key="IDE.errors.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607294955684" />
+    <state x="704" y="78" key="SettingsEditor" timestamp="1607295033210">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="704" y="78" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1607295033210" />
+    <state x="1017" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607294905753">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1017" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1607294905753" />
+  </component>
+</project>
