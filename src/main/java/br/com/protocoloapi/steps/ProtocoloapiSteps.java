@@ -5,8 +5,8 @@ import com.google.gson.Gson;
 import br.com.protocoloapi.pojos.Protocolo;
 import br.com.protocoloapi.servicos.Resposta;
 import br.com.protocoloapi.servicos.ServicosImpl;
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.Entao;
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Entao;
 
 public class ProtocoloapiSteps {
 	
@@ -21,8 +21,9 @@ public class ProtocoloapiSteps {
 		protocolo.setMediaId(mediaId);
 		protocolo.setCpf(cpf);
 		
+		
 		String json = gson.toJson(protocolo);
-		verbos.getEndPoint("http://192.168.246.242:8080/v1/protocol/protocols/2020-NEXT-000000000000", json);
+		verbos.postEndPoint("http://192.168.246.242:8080/v1/protocol/protocols", json);
 	}
 
 	@Entao("^a API me retorna o status code (\\d+)$")

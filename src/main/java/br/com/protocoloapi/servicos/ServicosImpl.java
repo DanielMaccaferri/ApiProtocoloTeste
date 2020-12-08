@@ -1,8 +1,9 @@
 package br.com.protocoloapi.servicos;
 
 
+import static io.restassured.RestAssured.given;
+
 import io.restassured.response.Response;
-import static io.restassured.RestAssured.*;
 
 
 public class ServicosImpl {

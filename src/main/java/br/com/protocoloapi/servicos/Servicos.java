@@ -1,6 +1,6 @@
 package br.com.protocoloapi.servicos;
 
-public class Servicos {	
+public interface Servicos {	
 
 	Resposta getEndPoint(String endPoint);
     Resposta postEndPoint(String endPoint, Object body);
