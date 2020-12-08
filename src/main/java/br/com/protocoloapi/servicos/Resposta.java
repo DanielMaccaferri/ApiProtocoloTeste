@@ -25,5 +25,4 @@ public class Resposta {
 		return resposta.statusCode();
 
 	}
-
 }
