@@ -23,7 +23,17 @@ public class ProtocoloapiSteps {
 		protocolo.setCpf(cpf);
 
 		String json = gson.toJson(protocolo);
-		verbos.postEndPoint("http://192.168.246.242:8080/v1/protocol/protocols", json);
+		verbos.postEndPoint("http://192.168.246.238:8076/next-central-protocol/v1/protocol/protocols", json);
+		
+	}
+	
+	@Dado("^que eu realize uma requisicao na API para criar um protocolo  \"([^\"]*)\"  \"([^\"]*)\"$")
+	public void que_eu_realize_uma_requisicao_na_API_para_criar_um_protocolo(String conID, String mediaId) throws Throwable {
+		protocolo.setConID(conID);
+		protocolo.setMediaId(mediaId);
+	
+		String json = gson.toJson(protocolo);
+		verbos.postEndPoint("http://192.168.246.238:8076/next-central-protocol/v1/protocol/protocols", json);
 	}
 
 	@Entao("^a API me retorna o status code (\\d+)$")
@@ -31,5 +41,4 @@ public class ProtocoloapiSteps {
 		validarAssercao.getResposta().statusCode(statusCode).log().all();
 
 	}
-
 }

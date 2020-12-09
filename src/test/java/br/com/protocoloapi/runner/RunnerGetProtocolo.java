@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(glue = { "br.com.protocoloapi.steps" }, features = {"src/test/resources/br/com/protocoloapi/feature" }, tags = "@geral")
-public class runner {
+
+public class RunnerGetProtocolo {
 
 }
-	

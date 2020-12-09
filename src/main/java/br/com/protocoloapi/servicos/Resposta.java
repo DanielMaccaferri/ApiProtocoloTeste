@@ -1,6 +1,5 @@
 package br.com.protocoloapi.servicos;
 
-import br.com.protocoloapi.servicos.Resposta;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 
