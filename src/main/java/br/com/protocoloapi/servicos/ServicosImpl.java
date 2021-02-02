@@ -28,4 +28,13 @@ public class ServicosImpl {
 		resposta = given().when().log().all().delete(endPoint);
 		return new Resposta(resposta);
 	}
+	
+	public Resposta postEndpointWithAuthorization(String endPoint, String token, Object mensagem) {
+		resposta = given().header("Authorization",token)
+				  .contentType("application/json")
+				  .body(mensagem).when().log()
+				.  all().post(endPoint);
+		return new Resposta(resposta);
+		
+	}
 }

@@ -4,8 +4,7 @@
 
 Funcionalidade: Gerar Protocolo
                 Eu como usuario gostaria
-                de gerar um protocolo
-                
+                de gerar um protocolo                
                 
 @gerarprotocolochat @post 
 Esquema do Cenario: Gerar protocolo de Chat
@@ -13,15 +12,15 @@ Esquema do Cenario: Gerar protocolo de Chat
        Entao a API me retorna o status code 200
       
 Exemplos:
-|conID  |mediaId   |CPF                    |
-|0      |   C      | 11100011133           |   
+|conID  |mediaId     |CPF                    |
+|0      |   "C"      | 11100011133           |   
 
 
 @gerarprotocolosemcpfchat @post 
 Esquema do Cenario: Gerar protocolo de Chat sem CPF
        Dado que eu realize uma requisicao na API para criar um protocolo de midia Chat sem cpf  "<conID>"  "<mediaId>" 
        Entao a API me retorna o status code 200
-      
+             
 Exemplos:
 |conID     |mediaId          |
 |0         |    C            |  
