@@ -29,8 +29,9 @@ public class ServicosImpl {
 		return new Resposta(resposta);
 	}
 	
-	public Resposta postEndpointWithAuthorization(String endPoint, String token, Object mensagem) {
-		resposta = given().header("Authorization",token)
+	public Resposta postEndpointWithAuthorization(String endPoint, String token, String Coreip, Object mensagem) {
+		resposta = given().header("X-Next-AuthToken",token)
+				  .header("next2-08093",Coreip)
 				  .contentType("application/json")
 				  .body(mensagem).when().log()
 				.  all().post(endPoint);

@@ -24,4 +24,8 @@ public class Resposta {
 		return resposta.statusCode();
 
 	}
+
+	public String salvarToken(String caminho) {
+		return resposta.jsonPath().get(caminho).toString();
+	}
 }
