@@ -31,7 +31,7 @@ public class ServicosImpl {
 	
 	public Resposta postEndpointWithAuthorization(String endPoint, String token, String Coreip, Object mensagem) {
 		resposta = given().header("X-Next-AuthToken",token)
-				  .header("next2-08093",Coreip)
+				  .header("Coreip", esteira)
 				  .contentType("application/json")
 				  .body(mensagem).when().log()
 				.  all().post(endPoint);
